@@ -162,7 +162,7 @@ func downloadAndWrite(url string, tag string, writeType string, filePath string,
 }
 
 func log(content ...interface{}) {
-	fmt.Println(content)
+	fmt.Println("log:", content)
 }
 
 func check(e error) {
