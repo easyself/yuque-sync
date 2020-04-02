@@ -14,7 +14,8 @@ ALL_LINUX = linux-amd64 \
 
 ALL = $(ALL_LINUX) \
 	darwin-amd64 \
-	windows-amd64 
+	windows-amd64 \
+	windows-386
 
 build_linux: $(ALL_LINUX:%=build/%)
 
